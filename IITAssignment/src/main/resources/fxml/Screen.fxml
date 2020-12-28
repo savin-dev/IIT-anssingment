@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.java.ui.controller.ScreenController">
+   <children>
+      <TableView fx:id="tbl" layoutX="25.0" layoutY="99.0" prefHeight="282.0" prefWidth="550.0" AnchorPane.bottomAnchor="25.0" AnchorPane.leftAnchor="25.0" AnchorPane.rightAnchor="25.0" AnchorPane.topAnchor="95.0">
+        <columns>
+          <TableColumn fx:id="mNoCol" prefWidth="59.199981689453125" text="M. No." />
+          <TableColumn fx:id="nameCol" prefWidth="240.0" text="Name" />
+            <TableColumn fx:id="dateCol" prefWidth="133.5999755859375" text="Member Since" />
+            <TableColumn fx:id="typeCol" prefWidth="116.800048828125" text="Type" />
+        </columns>
+      </TableView>
+      <TextField fx:id="txtSearch" layoutX="289.0" layoutY="27.0" prefHeight="26.0" prefWidth="278.0" promptText="Search" AnchorPane.rightAnchor="25.0" />
+   </children>
+</AnchorPane>
